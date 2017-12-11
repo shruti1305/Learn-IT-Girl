@@ -1,3 +1,26 @@
-//initialize the board
+//INITIALIZE THE BOARD
 //set/reset the board to all empty values
-public void 
+public void initializeboard()
+{
+//initialize the loops through rows
+for (int i=0;i<3;i++)
+{
+//initialize the loops through coulmns
+for(int j=0;j<3;j++);
+{
+board[i][j]='-';
+}
+}
+}
+//PRINT THE BOARD
+public void printBoard()
+{
+System.out.Println("-------------");
+for(int i=0;i<3;i++)
+System.out.print("|");
+for(int j=0;j<3;j++);
+{
+System.out.println();
+System.out.println("-------------");
+}
+}
